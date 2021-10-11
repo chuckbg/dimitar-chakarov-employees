@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Employee</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Choose your file</h1>
+<div id="app"></div>
+<h2>Input data</h2>
+<pre id="fileDisplayArea"></pre>
+<div id="contents" style="width: 75%; padding-left: 41px;">
+    <table id="theInTable">
+      <thead>
+        <tr>
+          <th width="25%">EmpID</th>
+          <th width="25%">ProjectID</th>
+          <th width="25%">DateFrom</th>
+          <th width="25%">DateTo</th>
+        </tr>
+      </thead>
+      <tbody id="theInBody">
+      </tbody>
+    </table>
+</div>
+<h2>Output data</h2>
+<pre id="msgDisplayArea"></pre>
+<div id="contents" style="width: 75%; padding-left: 41px;">
+    <table id="theOutTable">
+      <thead>
+        <tr>
+          <th width="25%">Employee ID #1</th>
+          <th width="25%">Employee ID #2</th>
+          <th width="25%">Project ID</th>
+          <th width="25%">Days worked</th>
+        </tr>
+      </thead>
+      <tbody id="theOutBody">
+      </tbody>
+    </table>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.development.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.development.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
